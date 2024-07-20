@@ -124,7 +124,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #0062b9;
+  background: #f95959;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -196,14 +196,14 @@ textarea {
 }
 
 .btn--theme {
-  background: #0062b9;
+  background: #f95959;
   color: #fff;
 }
 
 .btn--theme-inv {
-  color: #0062b9;
+  color: #f95959;
   background: #fff;
-  border: 2px solid #0062b9;
+  border: 2px solid #f95959;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
@@ -240,10 +240,10 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      #f95959,
+      #ac4f4f
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(/assets/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -261,7 +261,9 @@ textarea {
 .home-hero__socials {
   position: absolute;
   top: 50%;
+  right: 0%;
   border: 2px solid #eee;
+  border-radius: 10px 0px;
   border-left: 2px solid #eee;
   transform: translateY(-50%);
 }
@@ -293,7 +295,6 @@ textarea {
   width: 100%;
   display: block;
   padding: 1.2rem;
-  border-bottom: 2px solid #eee;
   transition: background 0.3s;
 }
 
@@ -303,6 +304,7 @@ textarea {
 
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
+  border-radius: 10px;
 }
 
 .home-hero__social-icon {
@@ -743,7 +745,7 @@ textarea {
 }
 
 .headerLogoContainer:hover {
-  color: #0062b9;
+  color: #f95959;
 }
 
 .headerLogoImgContainer {
@@ -752,7 +754,7 @@ textarea {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #0062b9;
+  background: #f95959;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -799,7 +801,7 @@ textarea {
 }
 
 .headerLink:hover {
-  color: #0062b9;
+  color: #f95959;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -869,7 +871,7 @@ textarea {
 }
 
 .headerSmMenuLink a:hover {
-  color: #0062b9;
+  color: #f95959;
 }
 
 .headerSmMenuLink:first-child a {
