@@ -392,6 +392,11 @@ textarea {
   margin-bottom: 11rem;
 }
 
+.projects__buttons {
+    display: flex;
+    gap: 15px;
+}
+
 @media only screen and (max-width: 56.25em) {
   .projects__row {
     grid-template-columns: 1fr;
@@ -416,6 +421,7 @@ textarea {
 
 .projects__row-img {
   width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
