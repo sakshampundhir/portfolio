@@ -243,7 +243,7 @@ textarea {
       #f95959,
       #ac4f4f
     ),
-    url(/assets/common-bg.svg);
+    url(./assets/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -466,7 +466,7 @@ textarea {
       #f95959,
       #ac4f4f
     ),
-    url(/assets/common-bg.svg);
+    url(./assets/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
@@ -584,7 +584,7 @@ textarea {
       #f95959,
       #ac4f4f
     ),
-    url(/assets/common-bg.svg);
+    url(./assets/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
