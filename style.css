@@ -463,10 +463,10 @@ textarea {
 .contact {
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      #f95959,
+      #ac4f4f
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(/assets/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
@@ -581,10 +581,10 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      #f95959,
+      #ac4f4f
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(/assets/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
